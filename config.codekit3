@@ -9,6 +9,45 @@
   ],
   "creatorBuild" : "34903",
   "files" : {
+    "\/android-chrome-192x192.png" : {
+      "ft" : 32768,
+      "iS" : 19467,
+      "oA" : 0,
+      "oAP" : "\/android-chrome-192x192.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/android-chrome-512x512.png" : {
+      "ft" : 32768,
+      "iS" : 89519,
+      "oA" : 0,
+      "oAP" : "\/android-chrome-512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/apple-touch-icon.png" : {
+      "ft" : 32768,
+      "iS" : 17668,
+      "oA" : 0,
+      "oAP" : "\/apple-touch-icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/assets\/css\/styles-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -33,6 +72,253 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m103297931rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 54311,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m103297931rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m414497191rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 31201,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m414497191rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m711388459rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 28999,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m711388459rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m714177048rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 31730,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m714177048rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m1270116121rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 31185,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m1270116121rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m1437443142rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 37926,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m1437443142rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m1905080515rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 34524,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m1905080515rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m1966947589rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 26027,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m1966947589rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m2011075878rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 51741,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m2011075878rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m2482492327rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 23048,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m2482492327rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m2893672828rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 55531,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m2893672828rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3188578046rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 55677,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3188578046rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3344053632rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 24943,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3344053632rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3475538058rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 38318,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3475538058rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3516882112rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 29901,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3516882112rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3793677054rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 55305,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3793677054rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3987064099rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 31195,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m3987064099rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m4196054454rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 47203,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m4196054454rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m4198606193rd-w1280_h960.jpeg" : {
+      "ft" : 16384,
+      "iS" : 85808,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/images\/3143-club-drive\/408e2c23a9479f7f918e7ad990d035bbl-m4198606193rd-w1280_h960.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/images\/coldwell-banker-logo.jpg" : {
       "ft" : 16384,
       "iS" : 161856,
@@ -54,7 +340,7 @@
       "oAP" : "\/assets\/images\/fb25b15888664497b9c1dccb7c7224bb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -67,7 +353,7 @@
       "oAP" : "\/assets\/images\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -80,7 +366,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/642223322_1352874073547247_2697011021254156173.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -119,14 +405,14 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/646708302_1357027613131893_2311104768800403662.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/parade-of-homes\/647104327_1357009536467034_6471569560121077481.jpg" : {
       "ft" : 16384,
-      "iS" : 146568,
+      "iS" : 142236,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/647104327_1357009536467034_6471569560121077481.jpg",
@@ -139,7 +425,7 @@
     },
     "\/assets\/images\/parade-of-homes\/647120767_1357009469800374_144249342327766624.jpg" : {
       "ft" : 16384,
-      "iS" : 128400,
+      "iS" : 124450,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/647120767_1357009469800374_144249342327766624.jpg",
@@ -171,7 +457,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/651170365_1364258352408819_7925602335470568398.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -191,7 +477,7 @@
     },
     "\/assets\/images\/parade-of-homes\/653903442_1370081638493157_53977709429838487.jpg" : {
       "ft" : 16384,
-      "iS" : 66371,
+      "iS" : 62295,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/653903442_1370081638493157_53977709429838487.jpg",
@@ -210,7 +496,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/654114073_1368363745331613_2513388910688058272.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -236,7 +522,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/655662871_1376503877850933_5621963278723833109.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -249,7 +535,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/655897634_1374672681367386_1966081671956467445.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -262,7 +548,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/656949592_1374685761366078_7705420180730453550.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -275,14 +561,14 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/657359855_1376516741182980_6233216682074217232.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/parade-of-homes\/657582726_1376517034516284_4151816571308863945.jpg" : {
       "ft" : 16384,
-      "iS" : 122923,
+      "iS" : 118842,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/657582726_1376517034516284_4151816571308863945.jpg",
@@ -295,7 +581,7 @@
     },
     "\/assets\/images\/parade-of-homes\/657861381_1380617320772922_2049057865700004098.jpg" : {
       "ft" : 16384,
-      "iS" : 86849,
+      "iS" : 83098,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/657861381_1380617320772922_2049057865700004098.jpg",
@@ -308,7 +594,7 @@
     },
     "\/assets\/images\/parade-of-homes\/658361874_1380608857440435_5502470875413644370.jpg" : {
       "ft" : 16384,
-      "iS" : 109173,
+      "iS" : 103778,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/658361874_1380608857440435_5502470875413644370.jpg",
@@ -321,7 +607,7 @@
     },
     "\/assets\/images\/parade-of-homes\/658971568_1380617280772926_8932720158490339008.jpg" : {
       "ft" : 16384,
-      "iS" : 110499,
+      "iS" : 104443,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/658971568_1380617280772926_8932720158490339008.jpg",
@@ -353,7 +639,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/660079744_1376516774516310_1322557752646996543.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -366,7 +652,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/660220710_1382322197269101_1896283255246614320.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -379,7 +665,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/660450984_1380617564106231_8227957349582779950.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -392,14 +678,14 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/660475201_1382322260602428_186251289302298343.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/parade-of-homes\/660483544_1382322330602421_7889949196000984553.jpg" : {
       "ft" : 16384,
-      "iS" : 99095,
+      "iS" : 95498,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/660483544_1382322330602421_7889949196000984553.jpg",
@@ -412,7 +698,7 @@
     },
     "\/assets\/images\/parade-of-homes\/662082007_1382321313935856_8808357208933575901.jpg" : {
       "ft" : 16384,
-      "iS" : 93884,
+      "iS" : 88720,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/662082007_1382321313935856_8808357208933575901.jpg",
@@ -438,7 +724,7 @@
     },
     "\/assets\/images\/parade-of-homes\/667700367_1386430526858268_1462555211711492037.jpg" : {
       "ft" : 16384,
-      "iS" : 105195,
+      "iS" : 100459,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/667700367_1386430526858268_1462555211711492037.jpg",
@@ -457,7 +743,7 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/667797949_1386414450193209_177225021546151048.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -470,14 +756,14 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/668439161_1386414236859897_2492729165407498838.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/assets\/images\/parade-of-homes\/668479243_1386414480193206_2470404179037850379.jpg" : {
       "ft" : 16384,
-      "iS" : 54869,
+      "iS" : 50882,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/parade-of-homes\/668479243_1386414480193206_2470404179037850379.jpg",
@@ -535,14 +821,14 @@
       "oAP" : "\/assets\/images\/parade-of-homes\/669357934_1387977180036936_4134286519425030573.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/images\/tyler-home.jpeg" : {
+    "\/assets\/images\/tyler-home.jpg" : {
       "ft" : 16384,
-      "iS" : 458062,
+      "iS" : 303943,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/images\/tyler-home.jpg",
@@ -552,6 +838,17 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/js\/main-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/assets\/js\/main-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/assets\/js\/main.js" : {
       "bF" : 0,
@@ -564,12 +861,46 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/index.html" : {
+    "\/favicon-16x16.png" : {
+      "ft" : 32768,
+      "iS" : 519,
+      "oA" : 0,
+      "oAP" : "\/favicon-16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/favicon-32x32.png" : {
+      "ft" : 32768,
+      "iS" : 1309,
+      "oA" : 0,
+      "oAP" : "\/favicon-32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/index.html",
+      "oAP" : "\/favicon.ico",
+      "oF" : 0
+    },
+    "\/index.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index.php",
       "oF" : 0
     },
     "\/README.md" : {
@@ -590,6 +921,22 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/site.webmanifest" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site.webmanifest",
+      "oF" : 0
+    },
+    "\/sitemap.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sitemap.xml",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -602,7 +949,7 @@
     "creationDate" : 797865732.81915903,
     "displayValue" : "annette_fox",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_orange",
+    "iconImageName" : "\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {

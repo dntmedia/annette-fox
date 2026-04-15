@@ -1,3 +1,53 @@
+document.documentElement.classList.add("js-enabled");
+
+const navToggle = document.querySelector("[data-nav-toggle]");
+const siteHeader = document.querySelector(".site-header");
+const siteNav = document.querySelector(".site-nav");
+
+if (navToggle && siteHeader && siteNav) {
+  const closeMenu = () => {
+    siteHeader.classList.remove("is-open");
+    navToggle.setAttribute("aria-expanded", "false");
+    navToggle.setAttribute("aria-label", "Open menu");
+  };
+
+  const openMenu = () => {
+    siteHeader.classList.add("is-open");
+    navToggle.setAttribute("aria-expanded", "true");
+    navToggle.setAttribute("aria-label", "Close menu");
+  };
+
+  navToggle.addEventListener("click", () => {
+    const isOpen = siteHeader.classList.contains("is-open");
+    if (isOpen) {
+      closeMenu();
+      return;
+    }
+
+    openMenu();
+  });
+
+  siteNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      if (window.innerWidth <= 900) {
+        closeMenu();
+      }
+    });
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeMenu();
+    }
+  });
+}
+
 const listingImages = [
   "642223322_1352874073547247_2697011021254156173.jpg",
   "642257677_1352873936880594_7783753703602586021.jpg",
@@ -37,24 +87,44 @@ const listingImages = [
   "669357934_1387977180036936_4134286519425030573.jpg"
 ];
 
-const slider = document.querySelector("[data-listing-slider]");
+const featuredImages = [
+  "408e2c23a9479f7f918e7ad990d035bbl-m4198606193rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m103297931rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m1270116121rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m1437443142rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m1905080515rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m1966947589rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m2011075878rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m2482492327rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m2893672828rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m3188578046rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m3344053632rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m3475538058rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m3516882112rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m3793677054rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m3987064099rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m414497191rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m4196054454rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m711388459rd-w1280_h960.jpeg",
+  "408e2c23a9479f7f918e7ad990d035bbl-m714177048rd-w1280_h960.jpeg"
+];
 
-if (slider) {
+const initSlider = (slider, images, basePath, altPrefix) => {
   const track = slider.querySelector("[data-slider-track]");
   const status = slider.querySelector("[data-slider-status]");
   const prevButton = slider.querySelector("[data-slider-prev]");
   const nextButton = slider.querySelector("[data-slider-next]");
   const viewport = slider.querySelector(".listing-slider-viewport");
-  const totalSlides = listingImages.length;
+  const totalSlides = images.length;
   let currentIndex = 0;
 
-  const slidesMarkup = listingImages
+  const slidesMarkup = images
     .map(
       (filename, index) => `
         <figure class="listing-slide">
           <img
-            src="assets/images/parade-of-homes/${filename}"
-            alt="Previous listing photo ${index + 1} of ${totalSlides}"
+            src="${basePath}/${filename}"
+            alt="${altPrefix} ${index + 1} of ${totalSlides}"
             ${index === 0 ? 'loading="eager"' : 'loading="lazy"'}
             decoding="async"
           >
@@ -93,4 +163,24 @@ if (slider) {
   });
 
   updateSlider();
+};
+
+const listingSlider = document.querySelector("[data-listing-slider]");
+if (listingSlider) {
+  initSlider(
+    listingSlider,
+    listingImages,
+    "assets/images/parade-of-homes",
+    "Previous listing photo"
+  );
+}
+
+const featuredSlider = document.querySelector("[data-featured-slider]");
+if (featuredSlider) {
+  initSlider(
+    featuredSlider,
+    featuredImages,
+    "assets/images/3143-club-drive",
+    "Featured listing photo"
+  );
 }

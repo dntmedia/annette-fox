@@ -4,17 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Annette Fox | Realtor in Tyler, Texas</title>
-  <meta
-    name="description"
-    content="Accessible landing page for Annette Fox, Realtor with Coldwell Banker Apex, Realtors in Tyler, Texas."
-  >
+  <meta name="description" content="Landing page for Annette Fox, Realtor with Coldwell Banker Apex, Realtors in Tyler, Texas.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S90MQHXMW5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-S90MQHXMW5');
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -34,9 +39,24 @@
               </span>
             </div>
 
-            <nav class="site-nav" aria-label="Primary">
+            <button
+              class="nav-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="site-navigation"
+              aria-label="Open menu"
+              data-nav-toggle
+            >
+              <span class="nav-toggle-bar" aria-hidden="true"></span>
+              <span class="nav-toggle-bar" aria-hidden="true"></span>
+              <span class="nav-toggle-bar" aria-hidden="true"></span>
+              <span class="sr-only">Menu</span>
+            </button>
+
+            <nav class="site-nav" id="site-navigation" aria-label="Primary">
               <ul>
                 <li><a href="#about">About</a></li>
+                <li><a href="#featured-listing">Featured Listing</a></li>
                 <li>
                   <a
                     href="https://www.coldwellbanker.com/tx/tyler/offices/coldwell-banker-apex-realtors/oid-P00400000FDdqQwb6xuSe9m3kd9tlfUHeDj6BtXx/listings"
@@ -70,26 +90,39 @@
             <p class="eyebrow">Coldwell Banker Apex, Realtors</p>
             <h2 id="intro-title">Hi, I'm Annette Fox</h2>
             <p class="lede">
-              I help clients buy, sell, rent, and invest with responsive service, local insight,
-              and a straightforward approach built around your goals.
+              I am a dedicated real estate professional known for my responsiveness, reliability,
+              and client-first approach.
             </p>
 
             <div class="intro-about">
-              <h3>Who you work with matters.</h3>
+              <h3>Here when you need me.</h3>
               <p>
-                When it comes to real estate, who you work with matters. I believe every client
-                deserves honest guidance, clear communication, and someone who will stay focused on
-                the details from start to finish.
+                I pride myself on being available when you need me, answering calls, addressing
+                questions, and guiding you with clarity every step of the way.
               </p>
               <p>
-                Whether you are preparing to buy, sell, rent, invest, or explore a second home, I
-                work to make the process feel more manageable and less overwhelming. My goal is to
-                help you understand your options, move forward with confidence, and feel supported
-                at every step.
+                With a career spanning 5 years in real estate, I have carved a niche for myself in
+                the real estate markets of Tyler and the surrounding East Texas towns.
+                Specializing in working with first-time home buyers, investors, and new builds, I
+                apply a tailored approach that ensures my clients' unique needs and objectives are
+                met every time. My vast network and community involvement further amplify my
+                ability to create successful real estate experiences.
               </p>
               <p>
-                I want to make it easy for you to get to know me, browse previous listings, and
-                reach out when you are ready to take the next step.
+                As a native of East Texas, I can provide you with information about our local
+                market, area schools, and the numerous community activities that make East Texas a
+                wonderful place to live and work. I also hold prestigious GRI (Graduate, Realtor
+                Institute) and C2EX (Commitment to Excellence) endorsements, affirming my
+                professionalism and service commitment in the real estate industry.
+              </p>
+              <p>
+                I strive to create clients for life and make every client feel comfortable,
+                confident, and cared for. Whether you are a seasoned buyer or dipping your toes
+                into the property market for the first time, I promise to be there for you
+                throughout the entire home buying process. For sellers, I go the extra mile,
+                ensuring your home is expertly listed with maximum exposure for optimal results. In
+                a nutshell, my lifelong love for East Texas, alongside my seasoned real estate
+                acumen, solidifies my reputation as an agent who truly knows and genuinely cares.
               </p>
             </div>
           </div>
@@ -114,7 +147,93 @@
       </div>
     </section>
 
-    <section class="section section-alt" id="listings" aria-labelledby="listings-title">
+    <section class="section section-alt" id="featured-listing" aria-labelledby="featured-listing-title">
+      <div class="container">
+        <p class="section-label">Featured Listing</p>
+        <div class="feature-grid">
+          <div class="feature-copy">
+            <h2 id="featured-listing-title">3143 Club Dr, Tyler, TX</h2>
+            <p class="section-intro">
+              A standout Tyler property with 4 bedrooms, 3 bathrooms, 2,725 square feet, and a
+              full gallery of local listing photography.
+            </p>
+            <p class="feature-price">$614,500</p>
+            <div class="feature-stats" aria-label="Featured listing details">
+              <div class="feature-stat">
+                <span class="feature-stat-label">Bedrooms</span>
+                <span class="feature-stat-value">4</span>
+              </div>
+              <div class="feature-stat">
+                <span class="feature-stat-label">Bathrooms</span>
+                <span class="feature-stat-value">3</span>
+              </div>
+              <div class="feature-stat">
+                <span class="feature-stat-label">Living Space</span>
+                <span class="feature-stat-value">2,725 sq ft</span>
+              </div>
+              <div class="feature-stat">
+                <span class="feature-stat-label">MLS</span>
+                <span class="feature-stat-value">26000941</span>
+              </div>
+            </div>
+            <p>
+              Scroll through the featured gallery below for a closer look, then reach out if you
+              would like details, availability, or a private showing.
+            </p>
+            <div class="feature-actions">
+              <a class="button button-primary" href="#contact">Request a Showing</a>
+              <a
+                class="button button-secondary"
+                href="https://www.coldwellbanker.com/tx/tyler/offices/coldwell-banker-apex-realtors/oid-P00400000FDdqQwb6xuSe9m3kd9tlfUHeDj6BtXx/listings"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Current Listings
+                <span class="sr-only">(opens in a new tab)</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="listing-slider featured-slider" data-featured-slider>
+            <div class="listing-slider-header">
+              <p class="listing-slider-status" data-slider-status aria-live="polite">1 / 19</p>
+              <div class="listing-slider-controls">
+                <button
+                  class="listing-slider-button"
+                  type="button"
+                  data-slider-prev
+                  aria-controls="featured-slider-track"
+                >
+                  Previous
+                </button>
+                <button
+                  class="listing-slider-button"
+                  type="button"
+                  data-slider-next
+                  aria-controls="featured-slider-track"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="listing-slider-viewport"
+              tabindex="0"
+              aria-label="Featured listing image slider"
+            >
+              <div
+                class="listing-slider-track"
+                id="featured-slider-track"
+                data-slider-track
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="listings" aria-labelledby="listings-title">
       <div class="container">
         <p class="section-label">Previous Listings</p>
         <h2 id="listings-title">A look at homes I&apos;ve helped showcase.</h2>
