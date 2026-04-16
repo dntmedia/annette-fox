@@ -57,16 +57,6 @@
               <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#featured-listing">Featured Listing</a></li>
-                <li>
-                  <a
-                    href="https://www.coldwellbanker.com/tx/tyler/offices/coldwell-banker-apex-realtors/oid-P00400000FDdqQwb6xuSe9m3kd9tlfUHeDj6BtXx/listings"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Current Listings
-                    <span class="sr-only">(opens in a new tab)</span>
-                  </a>
-                </li>
                 <li><a href="#listings">Previous Listings</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
@@ -153,6 +143,14 @@
         <div class="feature-grid">
           <div class="feature-copy">
             <h2 id="featured-listing-title">3143 Club Dr, Tyler, TX</h2>
+            <figure class="feature-mobile-image">
+              <img
+                src="assets/images/3143-club-drive/408e2c23a9479f7f918e7ad990d035bbl-m4198606193rd-w1280_h960.jpeg"
+                alt="Featured listing at 3143 Club Dr"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
             <p class="section-intro">
               A standout Tyler property with 4 bedrooms, 3 bathrooms, 2,725 square feet, and a
               full gallery of local listing photography.
@@ -184,11 +182,11 @@
               <a class="button button-primary" href="#contact">Request a Showing</a>
               <a
                 class="button button-secondary"
-                href="https://www.coldwellbanker.com/tx/tyler/offices/coldwell-banker-apex-realtors/oid-P00400000FDdqQwb6xuSe9m3kd9tlfUHeDj6BtXx/listings"
+                href="https://annettefox.cbapex.com/showcase/3143-club-drive-3143-club-drive-tyler-tx-75703/id_7506348?link_source=SocialBAY&cc=iuv9z"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View Current Listings
+                View Listing
                 <span class="sr-only">(opens in a new tab)</span>
               </a>
             </div>

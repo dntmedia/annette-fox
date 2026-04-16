@@ -419,6 +419,22 @@ h3 {
   max-width: 34rem;
 }
 
+.feature-mobile-image {
+  display: none;
+  margin: 1rem 0 1.25rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.feature-mobile-image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .feature-price {
   margin: 0 0 1rem;
   color: var(--brand);
@@ -739,6 +755,39 @@ h3 {
 }
 
 @media (max-width: 640px) {
+  .listing-slider {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .listing-slider .listing-slider-header {
+    display: contents;
+  }
+
+  .listing-slider .listing-slider-viewport {
+    grid-row: 2;
+  }
+
+  .listing-slider-status {
+    display: none;
+  }
+
+  .listing-slider-controls {
+    display: contents;
+  }
+
+  .listing-slider-button[data-slider-next] {
+    grid-row: 1;
+  }
+
+  .listing-slider-button[data-slider-prev] {
+    grid-row: 3;
+  }
+
+  .feature-mobile-image {
+    display: block;
+  }
+
   .feature-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -760,10 +809,8 @@ h3 {
     font-size: 0.85rem;
   }
 
-  .listing-slider-header,
-  .listing-slider-controls {
-    align-items: stretch;
-    flex-direction: column;
+  .listing-slider-button {
+    width: 100%;
   }
 
   .button {
