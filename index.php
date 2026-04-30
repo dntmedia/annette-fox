@@ -155,7 +155,7 @@
               A standout Tyler property with 4 bedrooms, 3 bathrooms, 2,725 square feet, and a
               full gallery of local listing photography.
             </p>
-            <p class="feature-price">$614,500</p>
+            <p class="feature-price">$629,000</p>
             <div class="feature-stats" aria-label="Featured listing details">
               <div class="feature-stat">
                 <span class="feature-stat-label">Bedrooms</span>
