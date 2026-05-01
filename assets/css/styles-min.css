@@ -595,6 +595,171 @@ h3 {
   padding: 2.5rem 0;
 }
 
+.squeeze-header {
+  background: var(--brand);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.property-squeeze-page {
+  width: 100%;
+  margin: 0;
+  background: var(--bg);
+}
+
+.property-squeeze-page .container {
+  box-sizing: border-box;
+  max-width: none;
+}
+
+.property-squeeze-page .squeeze-header .container {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.property-squeeze-page main .container,
+.property-squeeze-page .site-footer .container {
+  width: calc(100% - 60px);
+}
+
+.squeeze-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.property-squeeze-hero {
+  padding: 2.5rem 0 0.5rem;
+  background: linear-gradient(180deg, rgba(233, 237, 245, 0.68), rgba(247, 248, 251, 0));
+}
+
+.property-squeeze-page #property-inquiry.section {
+  padding-top: 25px;
+}
+
+.squeeze-copy {
+  max-width: none;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.squeeze-copy h1 {
+  width: auto;
+  max-width: none;
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 3.4vw, 3.2rem);
+}
+
+.squeeze-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.squeeze-hero-slider {
+  margin-top: 0;
+}
+
+.squeeze-hero-media,
+.squeeze-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.squeeze-hero-media img {
+  width: 100%;
+  height: auto;
+  max-height: 760px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.squeeze-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.squeeze-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.squeeze-details .feature-price,
+.squeeze-mls {
+  margin: 0;
+  font-size: clamp(1rem, 1.7vw, 1.6rem);
+  line-height: 1.2;
+}
+
+.squeeze-mls {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.squeeze-details .lede {
+  margin-top: 0;
+}
+
+.squeeze-details .feature-stats {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1rem;
+}
+
+.squeeze-hero-controls {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.squeeze-details .feature-actions {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.squeeze-hero-media figcaption,
+.squeeze-gallery figcaption {
+  padding: 0.85rem 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.98);
+}
+
+.squeeze-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.75rem;
+}
+
+.squeeze-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.squeeze-form-wrap {
+  max-width: none;
+  margin: 0 auto;
+}
+
+.squeeze-form-label {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr 1fr;
@@ -694,6 +859,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .squeeze-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
   .header-inner {
     flex-wrap: wrap;
     align-items: center;
@@ -755,6 +924,55 @@ h3 {
 }
 
 @media (max-width: 640px) {
+  .squeeze-details {
+    display: contents;
+  }
+
+  .squeeze-hero-slider {
+    order: 1;
+  }
+
+  .squeeze-hero-controls {
+    order: 2;
+    margin-top: 0.75rem;
+    padding-top: 0;
+  }
+
+  .squeeze-details > h1 {
+    order: 3;
+    margin-top: 1rem;
+  }
+
+  .squeeze-details > .squeeze-meta {
+    order: 4;
+  }
+
+  .squeeze-details > .lede {
+    order: 5;
+  }
+
+  .squeeze-details > .feature-stats {
+    order: 6;
+  }
+
+  .squeeze-details .feature-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .squeeze-details .feature-stat:last-child {
+    grid-column: auto;
+  }
+
+  .squeeze-header-inner,
+  .squeeze-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .squeeze-header-inner {
+    display: grid;
+    justify-content: stretch;
+  }
+
   .listing-slider {
     display: grid;
     gap: 1rem;
@@ -774,6 +992,18 @@ h3 {
 
   .listing-slider-controls {
     display: contents;
+  }
+
+  .squeeze-hero-controls .listing-slider-controls {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .squeeze-hero-controls .listing-slider-button {
+    width: auto;
   }
 
   .listing-slider-button[data-slider-next] {

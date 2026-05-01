@@ -137,7 +137,12 @@ const initSlider = (slider, images, basePath, altPrefix) => {
 
   const updateSlider = () => {
     track.style.transform = `translateX(-${currentIndex * 100}%)`;
-    status.textContent = `${currentIndex + 1} / ${totalSlides}`;
+    if (status) {
+      const statusFormat = status.dataset.sliderStatusFormat;
+      status.textContent = statusFormat === "photo"
+        ? `Photo: ${currentIndex + 1} of ${totalSlides}`
+        : `${currentIndex + 1} / ${totalSlides}`;
+    }
   };
 
   prevButton.addEventListener("click", () => {
