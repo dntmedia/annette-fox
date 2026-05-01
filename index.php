@@ -57,7 +57,6 @@
               <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#featured-listing">Featured Listing</a></li>
-                <li><a href="#listings">Previous Listings</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </nav>
@@ -226,48 +225,6 @@
                 data-slider-track
               ></div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="listings" aria-labelledby="listings-title">
-      <div class="container">
-        <p class="section-label">Previous Listings</p>
-        <h2 id="listings-title">A look at homes I&apos;ve helped showcase.</h2>
-        <p class="section-intro">
-          Browse a selection of previous listing photography from my local work.
-        </p>
-
-        <div class="listing-slider" data-listing-slider>
-          <div class="listing-slider-header">
-            <p class="listing-slider-status" data-slider-status aria-live="polite">1 / 36</p>
-            <div class="listing-slider-controls">
-              <button
-                class="listing-slider-button"
-                type="button"
-                data-slider-prev
-                aria-controls="listing-slider-track"
-              >
-                Previous
-              </button>
-              <button
-                class="listing-slider-button"
-                type="button"
-                data-slider-next
-                aria-controls="listing-slider-track"
-              >
-                Next
-              </button>
-            </div>
-          </div>
-
-          <div
-            class="listing-slider-viewport"
-            tabindex="0"
-            aria-label="Previous listings image slider"
-          >
-            <div class="listing-slider-track" id="listing-slider-track" data-slider-track></div>
           </div>
         </div>
       </div>
